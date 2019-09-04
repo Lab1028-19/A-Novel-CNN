@@ -14,14 +14,18 @@ This model focuses on the semantic segmentation task of point cloud recognition 
 ## Installation:
 
 The instructions are tested on Ubuntu 16.04 with python 3.5(Anaconda)and tensorflow 1.14 with GPU support.
+
 - Clone the A-Novel-CNN repository:
+
     ```Shell
     git clone https://github.com/Lab1028-19/A-Novel-CNN.git
     ```
-    We name the root directory as `$SQSG_ROOT`.
+    
+  We name the root directory as `$SQSG_ROOT`.
 
 
 - Use conda to install tensorflow(Automatically install the latest GPU versions, including CUDA and cudnn):
+
     ```Shell
     conda install tensorflow
     ```
@@ -33,6 +37,7 @@ The instructions are tested on Ubuntu 16.04 with python 3.5(Anaconda)and tensorf
 
     ```Shell
     cd $SQSG_ROOT/road_pointcloud/data/
+    wget https://cmnet.oss-cn-hongkong.aliyuncs.com/road_pointcloud.tar.gz
     tar -xzvf road_pointcloud.tar.gz
     rm road_pointcloud.tar.gz
     ```
@@ -45,14 +50,22 @@ The instructions are tested on Ubuntu 16.04 with python 3.5(Anaconda)and tensorf
    Training logs and model checkpoints will be saved in the log directory.
    
 - We can launch evaluation script simutaneously with training
+
     ```Shell
     cd $SQSG_ROOT/
     python evaluate.py
     ```
-	
+    
 ### Obstacle segmentationd
  - This part of the experimental operation refers to the above.
+ - Download training data.
 
+    ```Shell
+    cd $SQSG_ROOT/obstacle/data/
+    wget https://cmnet.oss-cn-hongkong.aliyuncs.com/obstacle.tar.gz
+    tar -xzvf obstacle.tar.gz
+    rm obstacle.tar.gz
+    ```
 ## Experiment
 <p align="center">
     <img src="https://github.com/Lab1028-19/A-Novel-CNN/blob/master/img/Ablation.PNG" width="600" />
