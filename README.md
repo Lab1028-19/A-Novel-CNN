@@ -33,7 +33,7 @@ The instructions are tested on Ubuntu 16.04 with python 3.5(Anaconda)and tensorf
 
 ## Training/Validation
 ### Road segmentationd
-- First,decompression training data.
+- First,download the training data.
 
     ```Shell
     cd $SQSG_ROOT/road_pointcloud/data/
@@ -58,7 +58,7 @@ The instructions are tested on Ubuntu 16.04 with python 3.5(Anaconda)and tensorf
     
 ### Obstacle segmentationd
  - This part of the experimental operation refers to the above.
- - Download training data.
+ - Download the training data.
 
     ```Shell
     cd $SQSG_ROOT/obstacle/data/
