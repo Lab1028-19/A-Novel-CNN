@@ -56,16 +56,12 @@ The instructions are tested on Ubuntu 16.04 with python 3.5(Anaconda)and tensorf
     python evaluate.py
     ```
     
+
 ## Experiment
-<p align="center">
-    <img src="https://github.com/Lab1028-19/A-Novel-CNN/blob/master/img/Ablation.PNG" width="600" />
-</p>
 
 <p align="center">
     <img src="https://github.com/Lab1028-19/A-Novel-CNN/blob/master/img/road.PNG" width="600" />
 </p>
-
-
 
 
 
