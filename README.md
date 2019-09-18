@@ -1,6 +1,6 @@
 ## A Novel CNN architecture for Real-time Point Cloud Feature Recognition in Road Environment
 
-This repository contains a contains two models, which are used for road semantics segmentation and moving object semantics segmentation. They all use the following structure of neural network.
+This repository contains a model, which is used for road semantics segmentation. It uses the following structure of the neural network.
 
 <p align="center">
     <img src="https://github.com/Lab1028-19/A-Novel-CNN/blob/master/img/Multichannel%20point%20feature%20map%20convolutional%20neural%20network%20for%20point%20cloud.png" width="600" />
@@ -8,7 +8,7 @@ This repository contains a contains two models, which are used for road semantic
 
 
 ### Introduction
-This model focuses on the semantic segmentation task of point cloud recognition in the road environment and proposes a new method for detecting obstacles and semantic segmentation in LIDAR in an unmanned environment. Through the study of the characteristics of road environment point cloud feature map and the special module ablation comparison analysis experiment, it is proved the validity and applicability of the related structure design of the point cloud semantic segmentation model.Experiments show that the proposed method has good accuracy and real-time performance in the public point cloud datasets Apollo and KITTI .
+This model focuses on the semantic segmentation task of point cloud recognition in the road environment and proposes a new method for semantic segmentation in LiDAR in an unmanned environment. Through the study of the characteristics of road environment point cloud feature map and the special module ablation comparison analysis experiment, it is proved the validity and applicability of the related structure design of the point cloud semantic segmentation model. Experiments show that the proposed method has good accuracy and real-time performance in the public point cloud datasets Apollo and KITTI.
 
 
 ## Installation:
