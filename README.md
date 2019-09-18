@@ -56,16 +56,6 @@ The instructions are tested on Ubuntu 16.04 with python 3.5(Anaconda)and tensorf
     python evaluate.py
     ```
     
-### Obstacle segmentationd
- - This part of the experimental operation refers to the above.
- - Download the training data.
-
-    ```Shell
-    cd $SQSG_ROOT/obstacle/data/
-    wget https://cmnet.oss-cn-hongkong.aliyuncs.com/obstacle.tar.gz
-    tar -xzvf obstacle.tar.gz
-    rm obstacle.tar.gz
-    ```
 ## Experiment
 <p align="center">
     <img src="https://github.com/Lab1028-19/A-Novel-CNN/blob/master/img/Ablation.PNG" width="600" />
@@ -74,11 +64,6 @@ The instructions are tested on Ubuntu 16.04 with python 3.5(Anaconda)and tensorf
 <p align="center">
     <img src="https://github.com/Lab1028-19/A-Novel-CNN/blob/master/img/road.PNG" width="600" />
 </p>
-
-<p align="center">
-    <img src="https://github.com/Lab1028-19/A-Novel-CNN/blob/master/img/semantic.PNG" width="600" />
-</p>
-
 
 
 
